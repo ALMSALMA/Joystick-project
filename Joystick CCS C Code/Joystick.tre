@@ -1,0 +1,81 @@
+ÀÄJoystick
+   ÀÄmain  0/429  Ram=2
+      ÃÄ@cinit1  (Inline)  Ram=0
+      ÃÄlcd_init  0/44  Ram=0
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_nibble  0/59  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_cmd  0/16  Ram=2
+      ³  ³  ÃÄlcd_nibble  0/59  Ram=1
+      ³  ³  ÀÄlcd_nibble  0/59  Ram=1
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_cmd  0/16  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄ@delay_ms1  0/20  Ram=1
+      ³  ÃÄlcd_cmd  0/16  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÃÄlcd_cmd  0/16  Ram=2
+      ³  ³  ÀÄ*
+      ³  ÀÄlcd_clear  (Inline)  Ram=0
+      ³     ÃÄlcd_cmd  0/16  Ram=2
+      ³     ³  ÀÄ*
+      ³     ÀÄ@delay_ms1  0/20  Ram=1
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄbcd  0/74  Ram=2
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÃÄ@DIV1616  0/37  Ram=5
+      ³  ÀÄ@DIV1616  0/37  Ram=5
+      ÃÄlcd_line1  0/8  Ram=2
+      ³  ÀÄlcd_cmd  0/16  Ram=2
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÃÄlcd_data  0/16  Ram=2
+      ³  ³  ÃÄlcd_nibble  0/59  Ram=1
+      ³  ³  ÀÄlcd_nibble  0/59  Ram=1
+      ³  ÀÄlcd_data  0/16  Ram=2
+      ³     ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄ@delay_ms1  0/20  Ram=1
+      ÃÄbcd  0/74  Ram=2
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_data  0/16  Ram=2
+      ³  ÀÄ*
+      ÃÄlcd_line2  0/8  Ram=2
+      ³  ÀÄlcd_cmd  0/16  Ram=2
+      ³     ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÃÄ@PSTRINGC7_631  0/86  Ram=4
+      ³  ÀÄ*
+      ÀÄ@PSTRINGC7_631  0/86  Ram=4
+         ÀÄ*

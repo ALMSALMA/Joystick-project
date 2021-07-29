@@ -1,0 +1,69 @@
+
+ROM used:   879/8192 (11%)
+            879/8192 (11%) including unused fragments
+
+            1.0 Average locations per line
+            8.2 Average locations per statement
+
+RAM used:   25/368 (7%) at main() level
+            30/368 (8%) worst case
+
+Stack used: 3 worst case (3 in main + 0 for interrupts)
+Stack size: 8
+
+Lines Stmts  %   Files
+----- ----- ---  -----
+  240   107 100  Joystick.c
+  671     0   0  C:\Program Files (x86)\PICC\Devices\16f877A.h
+----- -----
+  911   107 Total
+
+Page ROM  %  RAM   Vol Diff  Functions:
+---- --- --- ---   --- ----  ----------
+0     20   2    1             @delay_ms1
+0    429  49    2  1886  5.8  main
+0      2   0    0             @const646
+0     86  10    4             @PSTRINGC7_631
+0      3   0    0             @const648
+0      8   1    0             @const649
+0      8   1    0             @const650
+0      7   1    0             @const651
+0      7   1    0             @const652
+0      7   1    0             @const653
+0      9   1    0             @const654
+0      9   1    0             @const655
+0      9   1    0             @const656
+0      9   1    0             @const657
+0     74   8    2   158  2.6  bcd
+0     37   4    5             @DIV1616
+0     44   5    0   243  1.4  lcd_init
+0      8   1    2    39  1.5  lcd_line1
+0      8   1    2    39  1.5  lcd_line2
+ Inline         0    37  1.1  lcd_clear
+0     16   2    2   140  2.4  lcd_cmd
+0     16   2    2   140  2.4  lcd_data
+0     59   7    1   445  2.8  lcd_nibble
+ Inline         0             @cinit1
+
+Program metrics:
+    Functions               9
+    Statements              107
+    Comments                142
+    Volume (V)              4413
+    Difficulty (D)          21.2
+    Effort to implement (E) 93498
+    Time to implement (T)   1 hours, 27 minutes
+    Est Delivered Bugs (B)  1
+    Cyclomatic Complexity   15
+    Maintainability (MI)    92
+
+ Segment     Used  Free
+-----------  ----  ----
+00000-00003     4  0  
+00004-007FF   875  1169  
+00800-00FFF     0  2048  
+01000-017FF     0  2048  
+01800-01FFF     0  2048  
+
+
+

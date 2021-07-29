@@ -1,0 +1,107 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+008     PSP_DATA
+015     CCP_1_LOW
+015     CCP_1
+016     CCP_1_HIGH
+01B     CCP_2_LOW
+01B     CCP_2
+01C     CCP_2_HIGH
+020-021 adc_value
+022-023 adc_valueX
+024-025 adc_valueY
+026-027 adc_value_eskiX
+028-029 adc_value_eskiY
+02A-02B digit1
+02C-02D digit2
+02E-02F digit3
+030-031 digit4
+032     lcd_line1.position
+032     lcd_line2.position
+032     @delay_ms1.P1
+032     main.@SCRATCH1
+032     @PSTRINGC7_631.@SCRATCH1
+032     bcd.@SCRATCH1
+033     main.@SCRATCH2
+033     @PSTRINGC7_631.@SCRATCH2
+033     bcd.@SCRATCH2
+033     lcd_line1.@SCRATCH1
+033     lcd_line2.@SCRATCH1
+034     lcd_cmd.i
+034-035 @DIV1616.P1
+034     @PSTRINGC7_631.@SCRATCH3
+035     lcd_data.i
+035     lcd_cmd.temp
+035     @PSTRINGC7_631.@SCRATCH4
+036     lcd_data.temp
+036-037 @DIV1616.P1
+037     lcd_nibble.j
+038     @DIV1616.@SCRATCH1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+09C.6   C1OUT
+09C.7   C2OUT
+10D-10E @WRITE_PROGRAM_MEMORY8.P1
+10D-10E @READ_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  @const646.call
+000006  @const648.call
+000009  @const649.call
+000011  @const650.call
+000019  @const651.call
+000020  @const652.call
+000027  @const653.call
+00002E  @const654.call
+000037  @const655.call
+000040  @const656.call
+000049  @const657.call
+000052  @delay_ms1
+000066  lcd_nibble
+0000A1  lcd_cmd
+0000B1  lcd_init
+0000D4  lcd_clear
+0000DD  @DIV1616
+000102  bcd
+00014C  lcd_line1
+000154  lcd_data
+000164  @PSTRINGC7_631
+0001BA  lcd_line2
+0001C2  @cinit1
+0001C2  main
+0001D0  @cinit2
+
+Project Directory:
+    D:\Projects Github\Joystick Project\Joystick CCS C Code\
+
+Project Files:
+    Joystick.c                                              [27-Feb-20 22:06  CRC=AF7FF4AF]
+    C:\Program Files (x86)\PICC\Devices\16f877A.h           [12-Nov-13 14:35  CRC=81334808]
+
+Source signature=B1E684BF
+
+Units:
+    Joystick (main)
+
+Compiler Settings:
+    Processor:      PIC16F877A
+    Pointer Size:   16
+    ADC Range:      0-1023
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   Joystick.xsym
+    Errors:      Joystick.err
+    Ext Symbols: Joystick.esym
+    INHX8:       Joystick.hex
+    Symbols:     Joystick.sym
+    List:        Joystick.lst
+    Debug/COFF:  Joystick.cof
+    Project:     Joystick.ccspjt
+    Call Tree:   Joystick.tre
+    Statistics:  Joystick.STA

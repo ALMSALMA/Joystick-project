@@ -1,6 +1,6 @@
 # Joystick-project
 
-In this project, the coordinates of the joysitck is defined by PIC 16F877A and then shown in an LCD. 
+In this project, the coordinates of the joysitck is defined by PIC 16F877A and then shown in an LCD. (Code was written using PIC C Compiler)
 
 The project simulated using proteus and then the PCB part was designed, printed and finally the system tested in the real life.
 
